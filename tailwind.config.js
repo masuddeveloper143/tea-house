@@ -6,3 +6,8 @@ export default {
     },
     plugins: [],
 }
+// tailwind.config.js
+module.exports = {
+    content: ["./*.html"],
+    plugins: [require("daisyui")],
+}
